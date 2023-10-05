@@ -30,9 +30,6 @@ public class NBody {
         StdDraw.setYscale(-radius, radius);
         StdDraw.enableDoubleBuffering();
 
-        // Play music on standard audio.
-        StdAudio.playInBackground("2001.wav");
-
         // Simulate the universe.
         double ax = 0;
         double ay = 0;
